@@ -1,15 +1,65 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    // Launch configurations for Java
     "version": "0.2.0",
     "configurations": [
         {
             "type": "java",
-            "name": "Scratch",
+            "name": "Interfacing",
             "request": "launch",
-            "mainClass": "Scratch",
+            "mainClass": "Interfacing",
+            "projectName": "java-demo"
+        },
+        {
+            "type": "java",
+            "name": "Ok",
+            "request": "launch",
+            "mainClass": "Ok",
+            "projectName": "java-demo"
+        },
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "Demo",
+            "projectName": "java-demo"
+        },
+        {
+            "type": "java",
+            "name": "BinaryS",
+            "request": "launch",
+            "mainClass": "BinaryS",
+            "projectName": "java-demo"
+        },
+        {
+            "type": "java",
+            "name": "AreaCalculator",
+            "request": "launch",
+            "mainClass": "src.main.java.AreaCalculator",
             "projectName": "Java_ec9f7c7d"
+        },
+        {
+            "type": "java",
+            "name": "AreaCalculator",
+            "request": "launch",
+            "mainClass": "AreaCalculator",
+            "projectName": "java-demo"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current Java File",
+            "request": "launch",
+            "mainClass": "${fileBasenameNoExtension}",
+            "projectName": "${workspaceFolderBasename}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Compile and Run Current File (Terminal)",
+            "request": "launch",
+            "mainClass": "${fileBasenameNoExtension}",
+            "projectName": "${workspaceFolderBasename}",
+            "console": "integratedTerminal",
+            "preLaunchTask": "javac-current-file"
         }
     ]
 }
