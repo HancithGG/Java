@@ -4,6 +4,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CalculatorOp",
+            "request": "launch",
+            "mainClass": "Projects.CalculatorOp",
+            "projectName": "java-demo"
+        },
+        {
+            "type": "java",
+            "name": "Atm",
+            "request": "launch",
+            "mainClass": "Projects.Atm",
+            "projectName": "java-demo"
+        },
+        {
+            "type": "java",
             "name": "Interfacing",
             "request": "launch",
             "mainClass": "Interfacing",
