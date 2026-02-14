@@ -135,16 +135,16 @@ if(choice == 'a'){
 
             String comment = "";
             if(score <= 5){
-                comment = "fuck the grow up kido";
+                comment = " grow up kido";
             }else if(score < 8 ){
                 comment = "Okay you worth human life";
             }
             else{
-                comment = "you are a badass (mind if i stretch virgins);) ";
+                comment = "you are a badass";
             }
             System.out.println("\nfinal score : "+score+"/10");
             System.out.println(comment);
-            System.out.println("\nwant to retest?\na. no b. lets fuck it");
+            System.out.println("\nwant to retest?\na. no b. lets crush it");
             System.out.print("choose: ");
             char select_option = sc.nextLine().charAt(0);
             choose = (select_option == 'a')? false : true;

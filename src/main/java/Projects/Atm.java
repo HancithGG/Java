@@ -76,7 +76,7 @@ public class Atm {
             }
            
         }
-        if(choice <= 4){
+        if(choice == 4){
                 break;
             }
         }
