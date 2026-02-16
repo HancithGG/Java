@@ -1,3 +1,5 @@
+//Utility Calculator which takes number in parameters and gives return value for add, square, n Power
+
 class Calculator {
 
     int add(int a, int b) {
