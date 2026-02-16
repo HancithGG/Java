@@ -1,3 +1,4 @@
+//employee salary calculator using hirarechy for dev and manager 
 class Employee {
 
     String name;
