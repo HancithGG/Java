@@ -1,3 +1,4 @@
+//Java program that defines a Student class with both a default constructor and a parameterized constructor.
 class Student {
 
     String name;
