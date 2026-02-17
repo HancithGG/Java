@@ -1,56 +1,52 @@
 //employee salary calculator using hirarechy for dev and manager 
-class Employee {
-
+class Employee{
+    int id;
     String name;
-    double basicSalary;
+    double salary;
 
-    Employee(String name, double basicSalary) {
+    Employee(int id, String name, double salary){
+        this.id = id;
         this.name = name;
-        this.basicSalary = basicSalary;
+        this.salary = salary;
     }
 
-    void display() {
-        System.out.println("Name: " + name);
-        System.out.println("Basic Salary: " + basicSalary);
+    void display(){
+        System.out.println("Employee name: "+name);
+        System.out.println("Employee id: "+id);
     }
 }
-
-class Developer extends Employee {
-
+class Developer extends Employee{
     double bonus;
 
-    Developer(String name, double basicSalary, double bonus) {
-        super(name, basicSalary);
+    Developer(int id, String name, double salary, double bonus){
+        super(id, name, salary);
         this.bonus = bonus;
     }
-
-    void totalSalary() {
-        System.out.println("Total Salary: " + (basicSalary + bonus));
+    void paycheck(){
+        System.out.println("final salary: "+(salary + bonus));
     }
 }
+class Manager extends Developer{
+    double extra;
 
-class Manager extends Employee {
-
-    double allowance;
-
-    Manager(String name, double basicSalary, double allowance) {
-        super(name, basicSalary);
-        this.allowance = allowance;
+    Manager(int id, String name, double salary, double extra){
+        super(id, name, salary, extra);
+        this.extra = extra;
     }
-
-    void totalSalary() {
-        System.out.println("Total Salary: " + (basicSalary + allowance));
-    }
+    
 }
 
-class Main {
+
+class Main{
     public static void main(String[] args) {
-        Developer d = new Developer("Rahul", 50000, 10000);
-        d.display();
-        d.totalSalary();
+        Developer oDeveloper = new Developer(1, "primeage", 1000, 500);
+        oDeveloper.display();
+        oDeveloper.paycheck();
 
-        Manager m = new Manager("Anil", 60000, 15000);
-        m.display();
-        m.totalSalary();
+        Manager oManager = new Manager(11, "sirish", 10000, 999);
+        oManager.display();
+        oManager.paycheck();
     }
+
+        
 }
