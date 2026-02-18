@@ -1,3 +1,4 @@
+//Write a Java program to demonstrate encapsulation using a BankAccount class with private fields, methods to deposit and withdraw money with validation, and a method to display the balance.
 class BankAccount {
 
     private int accountNumber;
