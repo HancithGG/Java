@@ -1,3 +1,4 @@
+//static variable and static method can be used to share and update a common college name across multiple student objects
 class College {
 
     static String collegeName = "ABC College";
