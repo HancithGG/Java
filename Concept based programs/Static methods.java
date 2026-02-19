@@ -8,8 +8,8 @@ class College {
         this.studentName = studentName;
     }
 
-    static void changeCollegeName(String newName) {
-        collegeName = newName;
+    static void changeCollegeName(String collegeName) {
+        College.collegeName = collegeName;
     }
 
     void display() {
@@ -23,7 +23,7 @@ class College {
         s1.display();
         s2.display();
 
-        College.changeCollegeName("XYZ College");
+        College.changeCollegeName("XYZ College"); /// instead of this you can simply use College.collegeName = "XYZ College";
 
         s1.display();
         s2.display();
