@@ -1,3 +1,4 @@
+//**** important: static is useful due to its can be share by multiple object 
 //static variable and static method can be used to share and update a common college name across multiple student objects
 class College {
 
