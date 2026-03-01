@@ -1,12 +1,48 @@
 {
-    // Launch configurations for Java
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
             "type": "java",
-            "name": "CalculatorOp",
+            "name": "Current File",
             "request": "launch",
-            "mainClass": "Projects.CalculatorOp",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "Demo",
+            "projectName": "java-demo"
+        },
+        {
+            "type": "java",
+            "name": "FIBnonacci",
+            "request": "launch",
+            "mainClass": "FIBnonacci",
+            "projectName": "java-demo"
+        },
+        {
+            "type": "java",
+            "name": "First",
+            "request": "launch",
+            "mainClass": "Pack.First",
+            "projectName": "java-demo"
+        },
+        {
+            "type": "java",
+            "name": "Second",
+            "request": "launch",
+            "mainClass": "Pack.Second",
+            "projectName": "java-demo"
+        },
+        {
+            "type": "java",
+            "name": "Single",
+            "request": "launch",
+            "mainClass": "Pack.Single",
             "projectName": "java-demo"
         },
         {
@@ -18,62 +54,38 @@
         },
         {
             "type": "java",
-            "name": "Interfacing",
+            "name": "EmployeeSalary",
             "request": "launch",
-            "mainClass": "Interfacing",
+            "mainClass": "Projects.EmployeeSalary",
             "projectName": "java-demo"
         },
         {
             "type": "java",
-            "name": "Ok",
+            "name": "Quiz",
             "request": "launch",
-            "mainClass": "Ok",
+            "mainClass": "Projects.Quiz",
             "projectName": "java-demo"
         },
         {
             "type": "java",
-            "name": "Demo",
+            "name": "SmartHomeMain",
             "request": "launch",
-            "mainClass": "Demo",
+            "mainClass": "Projects.SmartHomeMain",
             "projectName": "java-demo"
         },
         {
             "type": "java",
-            "name": "BinaryS",
+            "name": "classroom",
             "request": "launch",
-            "mainClass": "BinaryS",
+            "mainClass": "classroom",
             "projectName": "java-demo"
         },
         {
             "type": "java",
-            "name": "AreaCalculator",
+            "name": "constructor(function Object() { [native code] }1)",
             "request": "launch",
-            "mainClass": "src.main.java.AreaCalculator",
-            "projectName": "Java_ec9f7c7d"
-        },
-        {
-            "type": "java",
-            "name": "AreaCalculator",
-            "request": "launch",
-            "mainClass": "AreaCalculator",
+            "mainClass": "constructor",
             "projectName": "java-demo"
-        },
-        {
-            "type": "java",
-            "name": "Launch Current Java File",
-            "request": "launch",
-            "mainClass": "${fileBasenameNoExtension}",
-            "projectName": "${workspaceFolderBasename}",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "Compile and Run Current File (Terminal)",
-            "request": "launch",
-            "mainClass": "${fileBasenameNoExtension}",
-            "projectName": "${workspaceFolderBasename}",
-            "console": "integratedTerminal",
-            "preLaunchTask": "javac-current-file"
         }
     ]
 }
