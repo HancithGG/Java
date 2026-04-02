@@ -1,4 +1,4 @@
-//**** important: static is useful due to its can be share by multiple object and no need to create obj to access and use
+//**** important: static variables are powerful because they’re shared across all objects, and a single change propagates everywhere 
 
 //static variable and static method can be used to share and update a common college name across multiple student objects
 class College {
