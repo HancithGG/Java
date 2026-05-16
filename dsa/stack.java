@@ -123,9 +123,11 @@ class StackMaster {
             }
         }
 
-        if (!bracketStack.isEmpty())
+        if(bracketStack.isEmpty() && valid)
+            valid = true;
+        else
             valid = false;
-
+        
         if (valid)
             System.out.println("Balanced");
         else
